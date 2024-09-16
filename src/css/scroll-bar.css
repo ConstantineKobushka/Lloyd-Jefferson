@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: #33383a;
+  background-color: rgba(250, 250, 250, 0.4);
+  border-radius: 15px;
+}
+::-webkit-scrollbar-thumb {
+  height: 200px;
+  border-radius: 15px;
+  border: 3px solid rgb(117 117 119);
+}
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
+:has(#color--blue)::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #001958 22.71%, #0041e8 99.91%);
+}
+:has(#color--red)::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #69292d 22.71%, #ed3b44 99.91%);
+}
+:has(#color--yellow)::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #ac5300 22.71%, #ff7f08 99.91%);
+}
+:has(#color--green)::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #596808 22.71%, #c6e327 99.91%);
+}
+:has(#color--orange)::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #9f3626 22.71%, #e6533c 99.91%);
+}
+:has(#color--teal)::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #1e3633 22.71%, #2b4441 99.91%);
+}
