@@ -9,7 +9,7 @@
   margin-top: 0;
 }
 .about-ac + .about-ac {
-  padding-top: 32px;
+  padding-top: 20px;
 }
 .arrow-down {
   transition: transform 0.6s ease;
@@ -67,6 +67,9 @@
 @media only screen and (min-width: 768px) {
   .about-accordion-container {
     margin-bottom: 64px;
+  }
+  .about-ac + .about-ac {
+    padding-top: 32px;
   }
   .about-ac-text {
     margin-bottom: 16px !important;
