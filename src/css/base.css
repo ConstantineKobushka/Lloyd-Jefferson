@@ -43,6 +43,13 @@ body {
   padding: 32px 0;
 }
 
+.h2-title {
+  color: rgba(250, 250, 250, 0.4);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
